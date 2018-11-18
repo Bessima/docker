@@ -39,6 +39,9 @@ docker docker docker docker
 - Удобно сложенные - легкость внесения дополнительных изменений
 
 ---
+### Docker Compose
+
+---
 
 ### Полезные ссылки
 - Установка Docker Community Edition:
