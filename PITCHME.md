@@ -33,7 +33,7 @@ docker docker docker docker
 ![Docker Engine](images/engine.png)
 ---
 ### Docker architecture
-![Docker Architecture](images/architecture.svg)
+![Docker Architecture](images/architecture.png)
 
 ---
 
