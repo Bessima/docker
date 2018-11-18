@@ -16,9 +16,10 @@ docker docker docker docker
 
 ### Основные аспекты
 
-- Знакомство: Что такое докер?
+- Знакомство: Что такое docker?
 - Причины такой популярности: гибкость, легкость установки...
 - Основные термины: образ,контейнер...
+- Технология докер
 - Основные команды: docker ps, docker images ...
 - Сборка образа
 
@@ -26,6 +27,13 @@ docker docker docker docker
 ### Знакомство
 
 //необходимо сказать, что идея контейнеров - не нова
+
+---
+### Docker Engine
+![Docker Engine](images/engine.png)
+---
+### Docker architecture
+![Docker Engine](images/architecture.svg)
 
 ---
 
