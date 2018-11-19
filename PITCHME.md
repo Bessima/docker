@@ -23,11 +23,7 @@ docker docker docker
 - Основные команды: docker ps, docker images ...
 - Сборка образа
 
----
-
 ---?include=familiarity/PITCHME.md
-
----
 
 ### Причины популярности
 
