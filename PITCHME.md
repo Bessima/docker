@@ -10,7 +10,7 @@ docker docker
 
 docker docker docker
 
-docker docker docker docker
+![logo](images/docker_logo.png)
 
 ---
 
