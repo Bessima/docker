@@ -6,7 +6,7 @@
 
 //необходимо сказать, что идея контейнеров - не нова
 
----
++++
 
 @title[Docker Engine]
 
@@ -14,7 +14,7 @@
 ![Docker Engine](images/engine.png)
 @snapend
 
----
++++
 
 @title[Docker architecture]
 
@@ -22,7 +22,7 @@
 ![Docker Architecture](images/architecture.png)
 @snapend
 
----
++++
 
 @title[Test]
 
