@@ -1,6 +1,6 @@
 
 @size[1.5em](Знакомство)
-![logo](images/docker_logo.png)
+![logo](images/Intro-to-Docker.png)
 +++
 
 @snap[north]
