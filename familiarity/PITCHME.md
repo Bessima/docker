@@ -4,15 +4,15 @@
 
 +++
 
-@snap[north span-100]
+@snap[north]
 @size[1.5em](Docker)
 @snapend
 
-@snap[north span-100]
+@snap[span-100]
 Инструмент для упрощения создания, развертывания и запуска приложений с использованием контейнеров
 @snapend
 
-@snap[south-east span-30]
+@snap[south-east span-20]
 ![logo](images/docker-whales.png)
 @snapend
 
