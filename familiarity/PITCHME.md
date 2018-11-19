@@ -1,6 +1,7 @@
 
 @size[1.5em](Знакомство)
 ![logo](images/Intro-to-Docker.png)
+
 +++
 
 @snap[north]
@@ -9,6 +10,10 @@
 
 @snap
 Инструмент для упрощения создания, развертывания и запуска приложений с использованием контейнеров
+@snapend
+
+@snap[south]
+![logo](images/docker-whales.png)
 @snapend
 
 +++
