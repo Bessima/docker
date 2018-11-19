@@ -1,16 +1,21 @@
-@snap[north]
-@size[1.5em](Знакомство)
-@snapend
 
-@snap
-@size[1.2em](Docker)
+@size[1.5em](Знакомство)
+![logo](images/docker_logo.png)
++++
+
+@snap[north]
+@size[1.5em](Docker)
 @snapend
 
 @snap
 Инструмент для упрощения создания, развертывания и запуска приложений с использованием контейнеров
-<br><br>
-//необходимо сказать, что идея контейнеров - не нова
 @snapend
+
++++
+
+### Docker Engine
+
+![Docker Engine](images/engine.png)
 
 +++
 
@@ -22,10 +27,6 @@
 - Volume : это дисковое пространство между хостом и контейнером
 
 +++
-
-### Docker Engine
-
-![Docker Engine](images/engine.png)
 
 +++
 
