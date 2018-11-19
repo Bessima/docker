@@ -8,12 +8,12 @@
 @size[1.5em](Docker)
 @snapend
 
-@snap
+@snap[west split-screen-heading span-50]
 Инструмент для упрощения создания, развертывания и запуска приложений с использованием контейнеров
 @snapend
 
-@snap[south]
-![logo](images/docker-whales.png&position=right&size=60%)
+@snap[east text-white span-45]
+![logo](images/docker-whales.png)
 @snapend
 
 +++
