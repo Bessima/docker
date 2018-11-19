@@ -8,7 +8,7 @@
 @size[1.5em](Docker)
 @snapend
 
-@snap[west split-screen-heading span-70]
+@snap[west split-screen-heading span-100]
 Инструмент для упрощения создания, развертывания и запуска приложений с использованием контейнеров
 @snapend
 
