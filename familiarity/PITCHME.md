@@ -13,7 +13,7 @@
 @snapend
 
 @snap[south]
-?images/docker-whales.png&position=right&size=60%
+![logo](images/docker-whales.png&position=right&size=60%)
 @snapend
 
 +++
