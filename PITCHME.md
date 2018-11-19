@@ -22,11 +22,8 @@ docker docker docker
 - Технология докер
 - Основные команды: docker ps, docker images ...
 - Сборка образа
-@css[template-note](We recommend using the *SPACE* key to navigate between slides.)
 
 ---?include=familiarity/PITCHME.md
-
----
 
 ### Причины популярности
 
