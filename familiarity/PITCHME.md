@@ -1,26 +1,31 @@
-@title[Знакомство]
-
-## @color[black](Знакомство)
-
-@fa[arrow-down text-black]
+## Знакомство
 
 //необходимо сказать, что идея контейнеров - не нова
 
 +++
 
-@title[Docker Engine]
+### Основные термины
 
-@snap[west split-screen-heading text-orange span-50]
-![Docker Engine](images/engine.png)
+@snap
+@ol[split-screen-list](false)
+- Image (образ): собранная подсистема, необходимая для работы процесса
+- Container (контейнер) : процесс, инициализированный на базе образа
+- Host (хост) : среда, в которой запускается докер
+- Volume : это дисковое пространство между хостом и контейнером
+@olend
 @snapend
 
 +++
 
-@title[Docker architecture]
+### Docker Engine
 
-@snap[west split-screen-heading text-orange span-50]
+![Docker Engine](images/engine.png)
+
++++
+
+### Docker architecture
+
 ![Docker Architecture](images/architecture.png)
-@snapend
 
 +++
 
