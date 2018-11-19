@@ -1,5 +1,5 @@
 @snap[north text-white span-100]
-@size[1.5em](Знакомство)
+##Знакомство
 @snapend
 
 @snap[south span-100]
