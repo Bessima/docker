@@ -1,7 +1,5 @@
-@snap
-
-##Знакомство
-
+@snap[north]
+@size[1.5em](Знакомство)
 @snapend
 
 @snap
