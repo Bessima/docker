@@ -8,6 +8,10 @@
 
 +++
 
+@snap[span-100]
+![logo](images/ship.png)
+@snapend
+
 +++
 
 @snap[north]
