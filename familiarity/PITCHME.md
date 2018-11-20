@@ -51,27 +51,27 @@
 +++
 
 @snap[north]
-@size[1.5em](Linux - контейнеры)
+@size[1.25em](Linux - контейнеры)
 @snapend
 
-@snap
+@snap[span-50]
 ![logo](images/containers.png)
 @snapend
 
 +++
 
 @snap[north]
-@size[1.5em](Платформа docker)
+@size[1.25em](Платформа docker)
 @snapend
 
-@snap[east span-100]
+@snap[span-50]
 ![logo](images/container.jpg)
 @snapend
 
 +++
 
 snap[north]
-@size[1.5em](Docker Engine)
+@size[1.25em](Docker Engine)
 @snapend
 
 ![Docker Engine](images/engine.png)
@@ -92,15 +92,17 @@ snap[north]
 
 +++
 
-snap[north]
-@size[1.5em](Архитектура Docker)
+@snap[north]
+@size[1.25em](Архитектура Docker)
 @snapend
 
 ![Docker Architecture](images/architecture.png)
 
 +++
 
-### Причины популярности
+@snap[north]
+@size[1.25em](Причины популярности)
+@snapend
 
 - Гибкость: Даже самые сложные приложения могут быть заключены в контейнер
 - Простота и компактность: Контейнеры используют ядро хоста
@@ -108,9 +110,6 @@ snap[north]
 - Легко переносимый: возможность установки локально, в облаке
 - Масштабируемость: можно автоматически разворачивать контейнеры где-угодно 
 - Удобно сложенные - легкость внесения дополнительных изменений
-
-
-
 
 
 +++
