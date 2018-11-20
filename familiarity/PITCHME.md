@@ -39,15 +39,15 @@
 @snapend
 
 
-@snap[west span-70]
+@snap[west span-60]
 @ul[split-screen-list](false)
-  - Image: собранная подсистема, необходимая для работы процесса
+  - Image: собранная подсистема
   - Container: процесс, инициализированный на базе образа
   - Host: среда, в которой запускается докер
 @ulend
 @snapend
 
-@snap[east span-30]
+@snap[east span-40]
 ![logo](images/container.jpg)
 @snapend
 
