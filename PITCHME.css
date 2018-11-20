@@ -1,3 +1,7 @@
 .reveal section img {
   border: none;
 }
+
+.auto-margin {
+  margin: auto;
+}
