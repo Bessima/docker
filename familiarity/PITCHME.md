@@ -70,7 +70,7 @@
 
 +++
 
-snap[north]
+@snap[north]
 @size[1.25em](Docker Engine)
 @snapend
 
@@ -78,7 +78,7 @@ snap[north]
 
 +++
 
-snap[north]
+@snap[north]
 @size[1.5em](Применение)
 @snapend
 
