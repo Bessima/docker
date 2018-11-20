@@ -102,7 +102,7 @@ Status: Downloaded newer image for ubuntu:latest
 +++
 
 @snap[north]
-@size[1.25em](Container - Контейнер)
+@size[1.1em](Container - Контейнер)
 @snapend
 
 запускаемый экземпляр Docker образа
