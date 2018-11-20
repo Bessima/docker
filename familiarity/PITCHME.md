@@ -9,7 +9,13 @@
 +++
 
 @snap[span-100]
-![logo](images/ship.png)
+![logo](images/ship.jpg)
+@snapend
+
++++
+
+@snap[span-100]
+![logo](images/ship2.jpg)
 @snapend
 
 +++
