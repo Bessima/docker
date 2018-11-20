@@ -54,7 +54,7 @@
 @size[1.25em](Linux - контейнеры)
 @snapend
 
-@snap[span-50]
+@snap[span-50 auto-margin]
 ![logo](images/containers.png)
 @snapend
 
@@ -64,7 +64,7 @@
 @size[1.25em](Платформа docker)
 @snapend
 
-@snap[span-50]
+@snap[span-50 auto-margin]
 ![logo](images/container.jpg)
 @snapend
 
