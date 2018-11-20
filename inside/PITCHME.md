@@ -31,18 +31,19 @@
 @size[1.25em](Images - Dockerfile)
 @snapend
 
-@snap[west span-60 auto-margin]
 файл с набором инструкций для создания образа будущего контейнера
 
 ```
 docker build
 ```
 
++++
+
+@snap[north]
+@size[1.25em](Images - Dockerfile)
 @snapend
 
-@snap[east span-40 auto-margin]
 ```
-
 FROM ubuntu:latest
 MAINTAINER igor
 RUN apt-get update
@@ -50,9 +51,7 @@ RUN apt-get install nginx
 ADD ./nginx.conf /etc/nginx/
 EXPOSE 80
 CMD [nginx]
-
 ```
-@snapend
 
 +++
 
