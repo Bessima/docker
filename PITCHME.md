@@ -32,6 +32,8 @@ docker docker docker
 
 ---?include=docker-compose/PITCHME.md
 
+---?include=resume/PITCHME.md
+
 ---
 
 ### Полезные ссылки
