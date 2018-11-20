@@ -2,13 +2,17 @@
 @size[1.5em](Внутри докера)
 @snapend
 
-@snap[west span-100]
+@snap[west span-50]
 @ul[split-screen-list](false)
   - Images - Образы
   - Containers - Контейнеры
   - Registries - Реестры
   - Services - Сервисы
 @ulend
+@snapend
+
+@snap[east span-50 auto-margin]
+![container](images/container.jpg)
 @snapend
 
 +++
