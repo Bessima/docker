@@ -54,6 +54,16 @@
 +++
 
 @snap[north]
+@size[1.5em](Linux - контейнеры)
+@snapend
+
+@snap[east span-50]
+![logo](images/containers.jpg)
+@snapend
+
++++
+
+@snap[north]
 @size[1.5em](Платформа docker)
 @snapend
 
