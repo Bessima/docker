@@ -35,16 +35,16 @@
 +++
 
 @snap[north]
-@size[1.5em](Основные термины)
+@size[1.25em](Основные термины)
 @snapend
 
 
 @snap[west span-70]
-@ol[split-screen-list](false)
+@ul[split-screen-list](false)
   - Image: собранная подсистема, необходимая для работы процесса
   - Container: процесс, инициализированный на базе образа
   - Host: среда, в которой запускается докер
-@olend
+@ulend
 @snapend
 
 @snap[east span-30]
