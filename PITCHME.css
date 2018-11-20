@@ -3,5 +3,5 @@
 }
 
 .auto-margin {
-  margin: auto;
+  margin: auto !important;
 }
