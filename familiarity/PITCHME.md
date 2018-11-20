@@ -39,13 +39,13 @@
 @snapend
 
 
-@snap[west span-50]
+@snap[west span-70]
 - Image: собранная подсистема, необходимая для работы процесса
 - Container: процесс, инициализированный на базе образа
 - Host: среда, в которой запускается докер
 @snapend
 
-@snap[south span-50]
+@snap[east span-30]
 ![logo](images/container.jpg)
 @snapend
 
