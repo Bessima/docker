@@ -28,6 +28,8 @@ docker docker docker
 
 ---?include=familiarity/PITCHME.md
 
+---?include=inside/PITCHME.md
+
 ### Docker Compose
 
 ---
