@@ -30,7 +30,7 @@ docker docker docker
 
 ---?include=inside/PITCHME.md
 
-### Docker Compose
+---?include=docker-compose/PITCHME.md
 
 ---
 
