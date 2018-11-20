@@ -39,7 +39,7 @@
 @snapend
 
 
-@snap[west span-60]
+@snap[west span-50]
 @ul[split-screen-list](false)
   - Image: собранная подсистема
   - Container: процесс, инициализированный на базе образа
@@ -47,7 +47,7 @@
 @ulend
 @snapend
 
-@snap[east span-40]
+@snap[east span-50]
 ![logo](images/container.jpg)
 @snapend
 
