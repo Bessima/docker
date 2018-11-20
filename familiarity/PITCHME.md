@@ -8,6 +8,8 @@
 
 +++
 
++++
+
 @snap[north]
 @size[1.5em](Docker)
 @snapend
@@ -22,6 +24,9 @@
 
 +++
 
+@snap[south-east span-20]
+![logo](images/ship.png)
+@snapend
 
 
 +++
