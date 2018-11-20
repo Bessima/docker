@@ -22,7 +22,7 @@
 @snapend
 
 @snap[span-80 auto-margin]
-![logo](images/images.png)
+![images](images/images.png)
 @snapend
 
 +++
