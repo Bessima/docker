@@ -2,4 +2,6 @@
 @size[1.5em](Docker)
 @snapend
 
+@snap[north span-80]
 ![docker_ship](images/docker-ship.png)
+@snapend
