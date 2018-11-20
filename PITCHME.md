@@ -34,7 +34,7 @@ docker docker docker
 
 ---?include=resume/PITCHME.md
 
----
+---?include=command/PITCHME.md
 
 ### Полезные ссылки
 - Установка Docker Community Edition:
