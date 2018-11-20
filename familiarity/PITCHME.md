@@ -39,16 +39,13 @@
 @snapend
 
 
-@snap[west span-50]
+@snap[west span-100]
 @ul[split-screen-list](false)
   - Image: собранная подсистема
   - Container: процесс, инициализированный на базе образа
   - Host: среда, в которой запускается докер
+  - Volume: дисковое пространство между хостом и контейнером.
 @ulend
-@snapend
-
-@snap[east span-50]
-![logo](images/container.jpg)
 @snapend
 
 +++
@@ -58,7 +55,7 @@
 @snapend
 
 @snap[east span-50]
-![logo](images/containers.jpg)
+![logo](images/containers.png)
 @snapend
 
 +++
@@ -67,6 +64,39 @@
 @size[1.5em](Платформа docker)
 @snapend
 
+@snap[east span-100]
+![logo](images/container.jpg)
+@snapend
+
++++
+
+snap[north]
+@size[1.5em](Docker Engine)
+@snapend
+
+![Docker Engine](images/engine.png)
+
++++
+
+snap[north]
+@size[1.5em](Применение)
+@snapend
+
+@snap[west span-100]
+@ul[split-screen-list](false)
+  - Быстрая, последовательная доставка ваших приложений
+  - Адаптивная доставка и масштабируемость
+  - Обслуживание больших нагрузок на том же самом железе
+@ulend
+@snapend
+
++++
+
+snap[north]
+@size[1.5em](Архитектура Docker)
+@snapend
+
+![Docker Architecture](images/architecture.png)
 
 +++
 
@@ -79,16 +109,8 @@
 - Масштабируемость: можно автоматически разворачивать контейнеры где-угодно 
 - Удобно сложенные - легкость внесения дополнительных изменений
 
-### Docker Engine
 
-![Docker Engine](images/engine.png)
-
-+++
 
 
 
 +++
-
-### Docker architecture
-
-![Docker Architecture](images/architecture.png)
