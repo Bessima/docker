@@ -5,9 +5,8 @@
 @snap[west span-50]
 @ul[split-screen-list](false)
   - Images - Образы
-  - Containers - Контейнеры
   - Registries - Реестры
-  - Services - Сервисы
+  - Containers - Контейнеры
 @ulend
 @snapend
 
