@@ -13,8 +13,9 @@ docker docker docker
 ![logo](images/docker_logo.png)
 
 ---
-
-### План
+@snap[north]
+@size[1.5em](План)
+@snapend
 
 - что такое docker
 - основные компоненты
