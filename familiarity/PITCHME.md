@@ -54,11 +54,11 @@
 @size[1.25em](Linux - контейнеры)
 @snapend
 
-@snap[west span-50]
+@snap[west span-50 auto-margin]
 ![logo](images/linux-container.png)
 @snapend
 
-@snap[east span-50]
+@snap[east span-50 auto-margin]
 ![logo](images/containers.png)
 @snapend
 
