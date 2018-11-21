@@ -54,9 +54,69 @@
 @size[1.25em](Linux - контейнеры)
 @snapend
 
-@snap[span-50 auto-margin]
+@snap[west span-50 auto-margin]
+![logo](images/linux-container.png)
+@snapend
+
+@snap[east span-50 auto-margin]
 ![logo](images/containers.png)
 @snapend
+
++++
+
+@snap[north]
+@size[1.25em](Базовые технологии)
+@snapend
+
+@snap[span-50 auto-margin]
+@ul[split-screen-list](false)
+  - Namespaces - пространства имен
+  - Control groups - группы управления
+  - UnionFS
+@ulend
+@snapend
+
++++
+
+@snap[north]
+@size[1.25em](Прострастсва имен)
+@snapend
+
+@snap[west span-50 auto-margin]
+изолированное рабочее пространство для контейнера
+
+Контейнер -> набор пространств имен
+@snapend
+
+@snap[east span-50 auto-margin]
+@ul[split-screen-list](false)
+  - PID - Изоляция процесса
+  - Net - Управление сетевми интерфейсами
+  - MNT - управление точками монтирования
+  - ....
+@ulend
+@snapend
+
++++
+
+@snap[north]
+@size[1.25em](Группы управления)
+@snapend
+
+@snap[west span-100 auto-margin]
+управление ресурсами для процесса: разделение аппаратных ресурсов между контейнерами и применение наложения ограничений при необходимости
+@snapend
+
++++
+
+@snap[north]
+@size[1.25em](Файловая система UnionFS)
+@snapend
+
+@snap[west span-100 auto-margin]
+работает путем создания слоев, делая их легковестными и быстрыми.
+@snapend
+
 
 +++
 
@@ -79,7 +139,7 @@
 +++
 
 @snap[north]
-@size[1.25em](Архитектура Docker)
+@size[1.25em](Docker Engine)
 @snapend
 
 ![Docker Architecture](images/architecture.png)
