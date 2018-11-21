@@ -150,3 +150,33 @@ $ docker container ls
 CONTAINER ID        IMAGE               COMMAND             CREATED
 1fa4ab2cf395        friendlyhello       "python app.py"     28 seconds ago
 ```
++++
+
+@snap[north]
+@size[1.25em](Docker Engine)
+@snapend
+
+![Docker Engine](images/engine.png)
+
++++
+
+@snap[north]
+@size[1.25em](Docker Engine)
+@snapend
+
+![Docker Architecture](images/architecture.png)
+
++++
+
+@snap[north]
+@size[1.25em](Причины популярности)
+@snapend
+
+@snap[west span-100]
+@ul[split-screen-list](false)
+  - Гибкость и простота распростронения
+  - Простота и компактность
+  - Легкость внесения обновлений и изменений
+  - Масштабируемость
+@ulend
+@snapend
