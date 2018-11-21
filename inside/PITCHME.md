@@ -30,7 +30,7 @@
 @size[1.25em](Images - Dockerfile)
 @snapend
 
-файл с набором инструкций для создания образа будущего контейнера
+набор инструкций для создания образа будущего контейнера
 
 ```
 $ docker build -t friendlyhello .
@@ -61,20 +61,33 @@ CMD [nginx]
 @size[1.25em](Dockerfile)
 @snapend
 
+@snap[west span-50]
 Образы в Docker так устроены, что они состоят из нескольких слоев.
+
+Union FS позволяет объединить слои в единый образ.
+@snapend
+
+@snap[east span-50 auto-margin]
+![container](images/sharing-layers.jpg)
+@snapend
+
++++
 
 Каждая инструкция из Dockerfile создает новый слой образа.
 
+
+```
+FROM ubuntu:latest
+MAINTAINER sima
+RUN apt-get update
+RUN apt-get install nginx
+ADD ./nginx.conf /etc/nginx/
+EXPOSE 80
+CMD [nginx]
+```
+
 ```
 $ docker history 00fd29ccc6f1
-IMAGE         CREATED       CREATED BY                                      SIZE
-00fd29ccc6f1  2 weeks ago   /bin/sh -c #(nop)  CMD ["/bin/bash"]            0B
-<missing>     2 weeks ago   /bin/sh -c mkdir -p /run/systemd && echo '...   7B
-<missing>     2 weeks ago   /bin/sh -c sed -i 's, except the top one,/...   2.76kB
-<missing>     2 weeks ago   /bin/sh -c rm -rf /var/lib/apt/lists/*          0B
-<missing>     2 weeks ago   /bin/sh -c set -xe   && echo '#!/bin/sh' >...   745B
-<missing>     2 weeks ago   /bin/sh -c #(nop) ADD file:f5a2d04c3f3cafa...   111MB
-
 ```
 +++
 
