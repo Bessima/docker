@@ -20,7 +20,12 @@
 @size[1.25em](Images - Образы)
 @snapend
 
-@snap[span-80 auto-margin]
+
+@snap[west span-20 auto-margin]
+шаблон формата "только для чтения" с инструкциями для создания контейнера
+@snapend
+
+@snap[east span-80 auto-margin]
 ![images](images/images.png)
 @snapend
 
