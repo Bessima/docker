@@ -30,3 +30,34 @@ services:
         environment:
         - MYSQL_ROOT_PASSWORD=somepassword
 ```
+
++++
+
+@snap[north]
+@size[1.25em](Docker Engine)
+@snapend
+
+![Docker Engine](images/engine.png)
+
++++
+
+@snap[north]
+@size[1.25em](Docker Engine)
+@snapend
+
+![Docker Architecture](images/architecture.png)
+
++++
+
+@snap[north]
+@size[1.25em](Причины популярности)
+@snapend
+
+@snap[west span-100]
+@ul[split-screen-list](false)
+  - Гибкость и простота распростронения
+  - Простота и компактность
+  - Легкость внесения обновлений и изменений
+  - Масштабируемость
+@ulend
+@snapend
