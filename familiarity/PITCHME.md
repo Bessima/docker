@@ -79,13 +79,11 @@
 +++
 
 @snap[north]
-@size[1.25em](Прострастсва имен)
+@size[1.25em](Пространстсва имен)
 @snapend
 
 @snap[west span-50 auto-margin]
 изолированное рабочее пространство для контейнера
-
-Контейнер -> набор пространств имен
 @snapend
 
 @snap[east span-50 auto-margin]
