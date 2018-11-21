@@ -68,7 +68,7 @@
 @size[1.25em](Базовые технологии)
 @snapend
 
-@snap[span-50 auto-margin]
+@snap[span-100 auto-margin]
 @ul[split-screen-list](false)
   - Namespaces - пространства имен
   - Control groups - группы управления
