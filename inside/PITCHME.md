@@ -51,6 +51,8 @@ friendlyhello         latest              326387cea398
 @size[1.25em](Dockerfile)
 @snapend
 
+Каждый dockerfile начинается  указания основного образа
+
 ```
 FROM ubuntu:latest
 MAINTAINER sima
@@ -79,7 +81,6 @@ Union FS позволяет объединить слои в единый обр
 +++
 
 Каждая инструкция из Dockerfile создает новый слой образа.
-
 
 ```
 FROM ubuntu:latest
@@ -120,10 +121,26 @@ Status: Downloaded newer image for ubuntu:latest
 +++
 
 @snap[north]
-@size[1.1em](Container - Контейнер)
+  @size[1.1em](Container - Контейнер)
 @snapend
 
-запускаемый экземпляр Docker образа
+@snap[west span-50]
+  запускаемый экземпляр Docker образа / процесс
+@snapend
+
+@snap[east span-50 auto-margin]
+@ul[split-screen-list](false)
+  - дополнительные файлы, добавленные в результате создания
+  - метеданные
+  - основное содержимое, определяемое образом
+@ulend
+@snapend
+
++++
+
+@snap[north]
+  @size[1.1em](Container - Контейнер)
+@snapend
 
 ```
 $ docker run -p 4000:80 friendlyhello
